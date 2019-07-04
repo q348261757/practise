@@ -34,6 +34,7 @@ body{
     float:left;
     text-decoration: none;
     border: inherit;
+    padding-left: 15px;
 }
 .rs{
     font-size: 24px;
