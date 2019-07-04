@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>  
+    <form action="users" method="GET" target="">
+        吃什么水果  
+      <label>
+        <input type="checkbox" name="水果" value="banana">banana
+      </label>
+      <label>
+           <input type="checkbox" name="水果" value="apple">apple
+      </label>
+        <input type="submit" value="提交">
+        <label>
+      用户名<input type="text" name="users" value="用户名">
+        </label>
+        <label>
+            密码<input type="password" name="password" value="密码">
+        </label>
+        <input type="submit"  value="上传">
+        爱我
+            <label>
+                <input type="radio" name="loveme" value="yes">yes
+            </label>
+         <label>
+            <input type="radio" name="loveme" value="no">no
+        </label>
+            <input type="submit" value="确认">
+            在哪个城市居住<select name="place">
+                <option value="北京">北京</option>
+                <option value="上海">上海</option>
+                <option value="深圳" disabled>深圳</option>
+                <option value="杭州" selected>杭州</option>
+            </select>
+            意向城市<select name="target" multiple>
+                    <option value="北京">北京</option>
+                    <option value="上海">上海</option>
+                    <option value="深圳">深圳</option>
+                    <option value="杭州">杭州</option>
+                </select>
+                <br>
+        <textarea style="resize: none;width:200px;height:100px;" name="建议"></textarea>
+    </form>
+</body>
+</html>

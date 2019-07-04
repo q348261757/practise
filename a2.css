@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.topNavBar>nav>ul>li{
+    float:left;
+    list-style: none;
+    margin: 0 10px;
+}
+.topNavBar{
+    padding: 15px 0;
+}
+.topNavBar>nav{
+    float: right;
+
+}
+.topNavBar>nav>ul{
+    padding-top:6px;
+    padding-bottom: 6px;
+    margin:0 20px;
+}
+.topNavBar>nav>ul>li>a{ 
+    text-decoration: none;
+    font-size: 12px;
+    color: #B7B7B7;
+    border-bottom:1px solid transparent;
+    padding-bottom: 5px;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear:both;
+}
+.topNavBar>a{
+    float:left;
+    text-decoration: none;
+    border: inherit;
+}
+.rs{
+    font-size: 24px;
+    font-family: Arial Black;
+    color: #E6686A;
+    margin-right:1.5px;
+}
+.card{
+    font-size: 24px;
+    font-family: Arial Black;
+    color: #9A9DA2;
+}
+.topNavBar>nav>ul>li>a:hover{
+    border-bottom:1px solid red;
+}
